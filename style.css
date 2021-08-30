@@ -56,10 +56,12 @@ body {
     display: flex;
 }
 
+/* Selected Seats */
 .seat.selected {
     background-color: #6feaf6;    
 }
 
+/* Occupied Seats */
 .seat.occupied {
     background-color: #fff;
 }
@@ -69,6 +71,7 @@ body {
     margin-right: 18px;
 }
 
+/* Aligns seats to look like theater rows. */
 .seat:nth-last-of-type(2) {
     margin-left: 18px;
 }
@@ -79,6 +82,7 @@ body {
     transform: scale(1.2);
 }
 
+/* Showcase seat icons don't have the hover effect. */
 .showcase .seat:not(.occupied):hover {
     cursor: default;
     transform: scale(1);
@@ -106,6 +110,7 @@ body {
     margin-left: 2px;
 }
 
+/* Movie screen image */
 .screen {
     background-color: #fff;
     height: 70px;
