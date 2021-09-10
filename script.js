@@ -19,8 +19,6 @@ movieSelect.addEventListener('change', e=> {
 })
 
 
-
-
 // Get the length of the selected seats node list, change the text of the ticket count and total price.
 function updateSelectedCount(){
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
